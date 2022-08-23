@@ -1,4 +1,4 @@
-# url-expander
+# find-expanded-url
 A **very** simplistic script that uses the `node-fetch` library to find out the actual URL behind a shortened URL.
 If you're skeptical about clicking on the link and checking it out yourself, this is the resource you're looking for.
 
