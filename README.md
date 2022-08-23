@@ -23,6 +23,12 @@ postData({url : url, error : false}).then((data) => {
 })
 
 ```
+```
+arjuns@Arjuns-MacBook-Air test % node test.js
+The actual URL is:  https://medium.com/@MinatoNamikaze02/web-scraping-images-efficiently-using-scrapy-7902ceeab171
+The server is:  nginx
+
+```
     
 ## Bugs?
 Feel free to open an issue.
