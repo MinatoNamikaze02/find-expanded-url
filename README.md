@@ -15,7 +15,7 @@ If you're skeptical about clicking on the link and checking it out yourself, thi
 ```
 import postData from 'find-expanded-url'
 
-const url = 'https://bit.ly/3nM39Vs'
+const url = 'https://bit.ly/3dRw20E'
 
 postData({url : url, error : false}).then((data) => {
    console.log("The actual URL is: ", data.url)
@@ -25,7 +25,7 @@ postData({url : url, error : false}).then((data) => {
 ```
 ```
 $ node test.js
-The actual URL is:  https://medium.com/@MinatoNamikaze02/web-scraping-images-efficiently-using-scrapy-7902ceeab171
+The actual URL is:  https://www.youtube.com/watch?v=dQw4w9WgXcQ // rickroll link xD
 The server is:  nginx
 
 ```
