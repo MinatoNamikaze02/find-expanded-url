@@ -19,14 +19,12 @@ const url = 'https://bit.ly/3dRw20E'    //rickroll link xD
 
 find_expanded_url({url : url, error : false}).then((data) => {
    console.log("The actual URL is: ", data.url)
-   console.log("The server is: ", data.server)
 })
 
 ```
 ```
 $ node test.js
 >> The actual URL is:  https://www.youtube.com/watch?v=dQw4w9WgXcQ
->> The server is:  nginx
 
 ```
     
