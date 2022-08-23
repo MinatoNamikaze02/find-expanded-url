@@ -16,7 +16,6 @@ const getArgs = () => {
 
 postData(getArgs()).then((data) => {
   console.log("The actual URL is: ", data.url)
-  console.log("The server is: ", data.server)
 }).catch(err => {
   console.log(err.message)
   process.exit(0)
