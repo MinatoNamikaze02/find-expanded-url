@@ -25,8 +25,8 @@ postData({url : url, error : false}).then((data) => {
 ```
 ```
 $ node test.js
->>> The actual URL is:  https://medium.com/@MinatoNamikaze02/web-scraping-images-efficiently-using-scrapy-7902ceeab171
->>> The server is:  nginx
+The actual URL is:  https://medium.com/@MinatoNamikaze02/web-scraping-images-efficiently-using-scrapy-7902ceeab171
+The server is:  nginx
 
 ```
     
