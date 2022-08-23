@@ -8,5 +8,21 @@ If you're skeptical about clicking on the link and checking it out yourself, thi
 * You can also choose to trigger an error if the url has any inbuilt redirects.
     * This can be done by `npm start <the_shortened_link> true`.
     
+## Usage as a library
+### Installation
+   Run `npm install find-expanded-url`
+### Example
+```
+import postData from 'find-expanded-url'
+
+const url = 'https://bit.ly/3nM39Vs'
+
+postData({url : url, error : false}).then((data) => {
+   console.log("The actual URL is: ", data.url)
+   console.log("The server is: ", data.server)
+})
+
+```
+    
 ## Bugs?
 Feel free to open an issue.
