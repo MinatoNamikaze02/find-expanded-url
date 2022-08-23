@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "find-expanded-url",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A simple script that finds the actual URLs behind shortened URLs",
   "main": "find_expanded_url/url_expander.js",
   "scripts": {

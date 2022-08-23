@@ -1,4 +1,4 @@
-import postData from "../find_expanded_url/url_expander.js"
+import find_expanded_url from "../find_expanded_url/url_expander.js"
 
 const getArgs = () => {
   const args = process.argv.slice(2)
@@ -14,7 +14,7 @@ const getArgs = () => {
   }
 }
 
-postData(getArgs()).then((data) => {
+find_expanded_url(getArgs()).then((data) => {
   console.log("The actual URL is: ", data.url)
 }).catch(err => {
   console.log(err.message)

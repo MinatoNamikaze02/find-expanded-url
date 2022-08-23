@@ -1,6 +1,6 @@
 import fetch from "node-fetch"
 
-async function postData({url, error}) {
+async function find_expanded_url({url, error}) {
   const response = await fetch(url, {
     method: "GET", 
     mode: "cors",
@@ -17,4 +17,4 @@ async function postData({url, error}) {
   }
 }
 
-export default postData
+export default find_expanded_url
