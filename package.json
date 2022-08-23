@@ -1,11 +1,11 @@
 {
   "type": "module",
-  "name": "url-expander",
-  "version": "1.0.0",
+  "name": "find-expanded-url",
+  "version": "1.0.5",
   "description": "A simple script that finds the actual URLs behind shortened URLs",
-  "main": "src/url_expander.js",
+  "main": "find_expanded_url/url_expander.js",
   "scripts": {
-    "start": "node src/url_expander.js"
+    "start": "node tests/test.js"
   },
   "dependencies": {
     "node-fetch": "^3.2.10"
