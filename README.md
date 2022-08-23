@@ -13,11 +13,11 @@ If you're skeptical about clicking on the link and checking it out yourself, thi
    Run `$ npm install find-expanded-url`
 ### Example
 ```
-import postData from 'find-expanded-url'
+import find_expanded_url from 'find-expanded-url'
 
 const url = 'https://bit.ly/3dRw20E'    //rickroll link xD
 
-postData({url : url, error : false}).then((data) => {
+find_expanded_url({url : url, error : false}).then((data) => {
    console.log("The actual URL is: ", data.url)
    console.log("The server is: ", data.server)
 })
