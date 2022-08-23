@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "name": "url-expander",
+  "version": "1.0.0",
+  "description": "A simple script that finds the actual URLs behind shortened URLs",
+  "main": "src/url_expander.js",
+  "scripts": {
+    "start": "node src/url_expander.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.2.10"
+  },
+  "author": "MinatoNamikaze02",
+  "license": "MIT"
+}
