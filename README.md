@@ -10,7 +10,7 @@ If you're skeptical about clicking on the link and checking it out yourself, thi
     
 ## Usage as a library
 ### Installation
-   Run `npm install find-expanded-url`
+   Run `$ npm install find-expanded-url`
 ### Example
 ```
 import postData from 'find-expanded-url'
@@ -24,9 +24,9 @@ postData({url : url, error : false}).then((data) => {
 
 ```
 ```
-arjuns@Arjuns-MacBook-Air test % node test.js
-The actual URL is:  https://medium.com/@MinatoNamikaze02/web-scraping-images-efficiently-using-scrapy-7902ceeab171
-The server is:  nginx
+$ node test.js
+>>> The actual URL is:  https://medium.com/@MinatoNamikaze02/web-scraping-images-efficiently-using-scrapy-7902ceeab171
+>>> The server is:  nginx
 
 ```
     
