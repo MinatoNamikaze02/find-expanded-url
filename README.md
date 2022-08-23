@@ -15,7 +15,7 @@ If you're skeptical about clicking on the link and checking it out yourself, thi
 ```
 import postData from 'find-expanded-url'
 
-const url = 'https://bit.ly/3dRw20E'
+const url = 'https://bit.ly/3dRw20E'    //rickroll link xD
 
 postData({url : url, error : false}).then((data) => {
    console.log("The actual URL is: ", data.url)
@@ -25,8 +25,8 @@ postData({url : url, error : false}).then((data) => {
 ```
 ```
 $ node test.js
-The actual URL is:  https://www.youtube.com/watch?v=dQw4w9WgXcQ // rickroll link xD
-The server is:  nginx
+>> The actual URL is:  https://www.youtube.com/watch?v=dQw4w9WgXcQ
+>> The server is:  nginx
 
 ```
     
